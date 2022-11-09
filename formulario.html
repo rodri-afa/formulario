@@ -8,18 +8,52 @@
 </head>
 <body>
     <h1>Formulario</h1>
-    <form >
+	<form >
+
         <!-- nombre del usuario -->
         <label for="nombre">Nombre:</label><br>
-        <input type="text" id="nombre" placeholder="escribe tu nombre"><br>
+        <input type="text" id="nombre" name="nombre"  placeholder="escribe tu nombre"><br>
         
         <!-- apellidos -->
         <label for="apellidos">Apellidos:</label><br>
-        <input type="text" id="apellidos" placeholder="tus apellidos"><br><br>
+        <input type="text" id="apellidos" name="apellidos" placeholder="tus apellidos"><br>
+        
+        <!-- email -->
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"  placeholder="email@email.com"><br>
+
+        <!-- password -->
+        <label for="password">Password:</label><br>
+        <input type="password" id="password"  name="password" ><br><br>
+
+        <!-- Juegos radio buttons -->
+        <h2>Selecciona el tipo de juego:</h2>
+        
+        <input type="radio" id="radio-fps" name="juegos">
+        <label for="radio-fps">FPS</label>
+        <br>
+
+        <input type="radio" id="radio-plataformas" name="juegos">
+        <label for="radio-plataformas">Plataformas</label>
+        <br>
+
+        <input type="radio" id="radio-deportes" name="juegos">
+        <label for="radio-deportes">Deportes</label>
+        <br>
+      
+        <input type="radio" id="radio-carreras" name="juegos">
+        <label for="radio-carreras">Carreras</label>
+        <br>
+
+        <br><br>
 
         <!-- submit -->
         <!-- <input type="submit" value="Enviar formulario">  tambien se puede hacer con un input type submit-->
         <button type="submit">Enviar formulario con un button</button>
-    </form>
+
+
+</form>
+    
+    
 </body>
 </html>
