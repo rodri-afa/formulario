@@ -25,27 +25,62 @@
         <!-- password -->
         <label for="password">Password:</label><br>
         <input type="password" id="password"  name="password" ><br><br>
+        
+        <!-- fecha nacimiento -->
+        <label for="f_nacimiento">Fecha de nacimiento:</label><br>
+        <input type="date" id="f_nacimiento"  name="f_nacimiento" ><br><br>
+        
+        <!-- teléfono -->
+        <label for="telefono">Telefono:</label><br>
+        <input type="tel" id="telefono"  name="telefono" ><br><br>
+        
+        <!-- edad -->
+        <label for="edad">Edad:</label><br>
+        <input type="number" id="edad"  name="edad" step="10"><br><br>
 
         <!-- Juegos radio buttons -->
         <h2>Selecciona el tipo de juego:</h2>
         
-        <input type="radio" id="radio-fps" name="juegos">
+        <input type="radio" id="radio-fps" name="juegos" value="FPS">
         <label for="radio-fps">FPS</label>
         <br>
 
-        <input type="radio" id="radio-plataformas" name="juegos">
+        <input type="radio" id="radio-plataformas" name="juegos" value="plataformas">
         <label for="radio-plataformas">Plataformas</label>
         <br>
 
-        <input type="radio" id="radio-deportes" name="juegos">
+        <input type="radio" id="radio-deportes" name="juegos" value="deportes">
         <label for="radio-deportes">Deportes</label>
         <br>
       
-        <input type="radio" id="radio-carreras" name="juegos">
+        <input type="radio" id="radio-carreras" name="juegos" value="carreras">
         <label for="radio-carreras">Carreras</label>
         <br>
+        <br>
 
-        <br><br>
+        <label for="select-juegos">Selecciona un tipo de juego:</label>
+        <select name="select-juegos" id="select-juegos">
+            <option value="FPS">FPS</option>
+            <option value="Plataformas">Plataformas</option>
+            <option value="Deportes">Deportes</option>
+            <option value="Carreras">Carreras</option>
+
+        </select>
+        <br>
+        
+        <h2>Cosas que me encantan: ❤️</h2>
+        <input type="checkbox" name="programacion" id="programacion">
+        <label for="programacion">Programación</label>
+        <br>
+        <input type="checkbox" name="correr" id="correr">
+        <label for="correr">Correr</label>
+        <br>
+        <input type="checkbox" name="jugar" id="jugar">
+        <label for="jugar">Jugar al Maincra</label>
+        <br>
+
+        <br>
+        <br>
 
         <!-- submit -->
         <!-- <input type="submit" value="Enviar formulario">  tambien se puede hacer con un input type submit-->
